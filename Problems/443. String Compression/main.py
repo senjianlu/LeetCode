@@ -33,6 +33,7 @@ class Solution:
                 repeat_count += 1
         return record_index
 
+
 """
 @description: 单体测试
 -------
