@@ -17,15 +17,15 @@
 @return:
 """
 class Solution:
-    def maximumScore(self, nums: [int], multipliers: [int]) -> int:
+    def maximumScore(self, nums: List[int], multipliers: List[int]) -> int:
         n, m = len(nums), len(multipliers)
-        x2_list = [[None]*(m+1) for _ in range(m+1)]
+        x2_list = [[None]*m for _ in range(m+1)]
         # l 为从左向右的指针索引，r 为从右向左的指针索引
         def get_max(l, r):
-            if (x2_list[l][r] != None):
-                return x2_list[l][r]
             if ((l+r) == m):
                 return 0
+            if (x2_list[l][r] != None):
+                return x2_list[l][r]
             x2_list[l][r] = max(
                 nums[l]*multipliers[l+r]+get_max(l+1, r),
                 nums[-1-r]*multipliers[l+r]+get_max(l, r+1))
