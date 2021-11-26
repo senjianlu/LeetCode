@@ -2,11 +2,11 @@
 # -*- coding:UTF-8 -*-
 #
 # @AUTHOR: Rabbir
-# @FILE: /root/GitHub/LeetCode/Problems/0. Template/main.py
-# @DATE: 2021/11/24 Wed
-# @TIME: 15:02:06
+# @FILE: /root/GitHub/LeetCode/Problems/767. Reorganize String/main.py
+# @DATE: 2021/11/26 Fri
+# @TIME: 17:52:59
 #
-# @DESCRIPTION: 0
+# @DESCRIPTION: 767
 
 
 import math

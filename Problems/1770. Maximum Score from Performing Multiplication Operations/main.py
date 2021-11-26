@@ -2,11 +2,11 @@
 # -*- coding:UTF-8 -*-
 #
 # @AUTHOR: Rabbir
-# @FILE: /root/GitHub/LeetCode/Problems/0. Template/main.py
-# @DATE: 2021/11/24 Wed
-# @TIME: 15:02:06
+# @FILE: /root/GitHub/LeetCode/Problems/1770. Maximum Score from Performing Multiplication Operations/main.py
+# @DATE: 2021/11/26 Fri
+# @TIME: 17:52:42
 #
-# @DESCRIPTION: 0
+# @DESCRIPTION: 1770
 
 
 """
